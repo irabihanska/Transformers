@@ -1,2 +1,0 @@
-*.txt
-File2.txt
