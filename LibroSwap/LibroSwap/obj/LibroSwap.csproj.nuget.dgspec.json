@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ira\\source\\repos\\LibroSwap\\LibroSwap\\LibroSwap.csproj": {}
+    "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\LibroSwap.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ira\\source\\repos\\LibroSwap\\LibroSwap\\LibroSwap.csproj": {
+    "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\LibroSwap.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ira\\source\\repos\\LibroSwap\\LibroSwap\\LibroSwap.csproj",
+        "projectUniqueName": "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\LibroSwap.csproj",
         "projectName": "LibroSwap",
-        "projectPath": "C:\\Users\\Ira\\source\\repos\\LibroSwap\\LibroSwap\\LibroSwap.csproj",
-        "packagesPath": "C:\\Users\\Ira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ira\\source\\repos\\LibroSwap\\LibroSwap\\obj\\",
+        "projectPath": "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\LibroSwap.csproj",
+        "packagesPath": "C:\\Users\\Костя\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Костя\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -77,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
