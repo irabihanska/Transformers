@@ -6,7 +6,7 @@ namespace DAL.UnitOfWork
 {
     public interface IUnitOfWork
     {
-        ICoverageRepository CoverageRepository { get; }
+        IBookCoverageRepository CoverageRepository { get; }
 
         void Save();
 

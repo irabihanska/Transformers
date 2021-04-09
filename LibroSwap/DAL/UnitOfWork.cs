@@ -12,7 +12,7 @@ namespace DAL.UnitOfWork
         private LibroContext _context;
         private readonly IMapper _mapper;
 
-        private ICoverageRepository _coverageRepository;
+        private IBookCoverageRepository _coverageRepository;
 
         public UnitOfWork(LibroContext context)
         {
@@ -29,6 +29,6 @@ namespace DAL.UnitOfWork
             return _context.SaveChangesAsync();
         }
 
-        public ICoverageRepository CoverageRepository => _coverageRepository ?? (_coverageRepository = new CoveragesRepository(_context, _mapper));
+        public IBookCoverageRepository CoverageRepository => _coverageRepository ?? (_coverageRepository = new BookCoveragesRepository(_context, _mapper));
     }
 }

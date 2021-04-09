@@ -1,0 +1,12 @@
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DAL.Models
+{
+    [Table("Coverages")]
+    public class BookCoverage : Entity
+    {
+        [Column("coverage_name"), StringLength(255), Required]
+        public string CoverageName { get; set; }
+    }
+}

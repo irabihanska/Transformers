@@ -8,7 +8,7 @@ using DAL.Models;
 
 namespace DAL
 {
-    public interface ICoverageRepository : IRepository<Coverage>
+    public interface IBookCoverageRepository : IRepository<BookCoverage>
     {
     }
 }

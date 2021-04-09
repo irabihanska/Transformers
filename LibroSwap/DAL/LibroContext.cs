@@ -7,15 +7,15 @@ namespace DAL
 {
     public class LibroContext : DbContext
     {
-        public DbSet<Coverage> Coverages { get; set; }
+        public DbSet<BookCoverage> Coverages { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Coverage>().HasData(
-                    new Coverage() { CoverageName = "Тверда" },
-                    new Coverage() { CoverageName = "М'яка" }
+            modelBuilder.Entity<BookCoverage>().HasData(
+                    new BookCoverage() { CoverageName = "Тверда" },
+                    new BookCoverage() { CoverageName = "М'яка" }
                 );
         }
 
