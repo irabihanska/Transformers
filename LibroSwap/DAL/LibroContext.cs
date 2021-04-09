@@ -14,8 +14,8 @@ namespace DAL
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<BookCoverage>().HasData(
-                    new BookCoverage() { CoverageName = "Тверда" },
-                    new BookCoverage() { CoverageName = "М'яка" }
+                    new BookCoverage() { Id = 1, CoverageName = "Тверда" },
+                    new BookCoverage() { Id = 2, CoverageName = "М'яка" }
                 );
         }
 

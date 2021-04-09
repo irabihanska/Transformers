@@ -8,18 +8,24 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
     <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\DAL\DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
   </ItemGroup>
 
 </Project>
