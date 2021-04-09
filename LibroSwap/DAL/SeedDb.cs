@@ -63,6 +63,16 @@ namespace DAL
                     new Bookhouse() { Id = 2, BookhouseName = "Видавництво Івана Малковича „А-ба-ба-га-ла-ма-га", CityId = 2},
                     new Bookhouse() { Id = 3, BookhouseName = "Bloomsbury", CityId = 3}
                 );
+
+            modelBuilder.Entity<User>().HasData(
+                
+                    new User() { Id = 1, UserName = "Cardify", Email = "mbeecker8@deviantart.com", CityId = 4, AboutMe = "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor." },
+                    new User() { Id = 2, UserName = "Voyatouch", Email = "ktolmanm@php.net", CityId = 3, AboutMe = "Pellentesque ultrices mattis odio. Donec vitae nisi." },
+                    new User() { Id = 3, UserName = "Konklab", Email = "tcothey1t@gmpg.org", AboutMe = "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti." },
+                    new User() { Id = 4, UserName = "Ronstring", Email = "jmundow1y@sfgate.com", CityId = 2, AboutMe = "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit." },
+                    new User() { Id = 5, UserName = "Flowdesk", Email = "tshimman1a@wp.com", CityId = 1, AboutMe = "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit." }
+
+                );
         }
     }
 }

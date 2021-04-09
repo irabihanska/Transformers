@@ -19,5 +19,7 @@ namespace DAL.Models
         public Country Country { get; set; }
 
         public ICollection<Bookhouse> Bookhouses { get; set; }
+
+        public ICollection<User> Users { get; set; }
     }
 }

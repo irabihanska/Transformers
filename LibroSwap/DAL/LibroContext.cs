@@ -17,6 +17,10 @@ namespace DAL
 
         public DbSet<City> Cities { get; set; }
 
+        public DbSet<Author> Authors { get; set; }
+
+        public DbSet<Bookhouse> Bookhouses { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -32,7 +36,8 @@ namespace DAL
             modelBuilder.Entity<City>()
                 .HasOne<Country>(cnt => cnt.Country)
                 .WithMany(cts => cts.Cities)
-                .HasForeignKey(cnt => cnt.CountryId);
+                .HasForeignKey(cnt => cnt.CountryId)
+                .IsRequired();
 
             modelBuilder.Entity<City>().ToTable("Cities");
 
@@ -41,9 +46,17 @@ namespace DAL
             modelBuilder.Entity<Bookhouse>()
                 .HasOne<City>(bh => bh.City)
                 .WithMany(ct => ct.Bookhouses)
-                .HasForeignKey(bh => bh.CityId);
+                .HasForeignKey(bh => bh.CityId)
+                .IsRequired();
 
             modelBuilder.Entity<Bookhouse>().ToTable("Bookhouses");
+
+            modelBuilder.Entity<User>()
+                .HasOne<City>(u => u.City)
+                .WithMany(ct => ct.Users)
+                .HasForeignKey(u => u.CityId);
+
+            modelBuilder.Entity<User>().ToTable("Users");
 
             modelBuilder.Seed();
         }
