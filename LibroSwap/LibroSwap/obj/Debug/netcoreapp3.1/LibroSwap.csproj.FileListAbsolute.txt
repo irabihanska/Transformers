@@ -100,7 +100,6 @@ C:\Users\Ira\source\repos\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\Razor\View
 C:\Users\Ira\source\repos\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\Ira\source\repos\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\Razor\Views\Terms\Index.cshtml.g.cs
 C:\Users\Ira\source\repos\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\Razor\Views\Product_Details\Index.cshtml.g.cs
-C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.csprojAssemblyReference.cache
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.AssemblyInfoInputs.cache
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.AssemblyInfo.cs
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.csproj.CoreCompileInputs.cache
@@ -178,7 +177,7 @@ C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\bin\Debug\
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\bin\Debug\netcoreapp3.1\BusinessLogic.pdb
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\bin\Debug\netcoreapp3.1\Common.pdb
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\bin\Debug\netcoreapp3.1\DAL.pdb
-C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.csprojAssemblyReference.cache
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\staticwebassets\LibroSwap.StaticWebAssets.Manifest.cache
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\staticwebassets\LibroSwap.StaticWebAssets.xml
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\scopedcss\bundle\LibroSwap.styles.css

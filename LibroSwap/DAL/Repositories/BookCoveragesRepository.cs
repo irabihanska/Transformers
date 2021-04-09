@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DAL.Interfaces;
 using DAL.Models;
 
 namespace DAL.Repositories

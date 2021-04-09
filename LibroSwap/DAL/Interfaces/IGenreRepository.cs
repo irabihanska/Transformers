@@ -3,7 +3,7 @@ using DAL.Models;
 
 namespace DAL.Interfaces
 {
-    public interface IBookCoverageRepository : IRepository<BookCoverage>
+    public interface IGenreRepository : IRepository<Genre>
     {
     }
 }

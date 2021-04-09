@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using DAL.Models;
 
-namespace DAL.Repositories
+namespace DAL.Interfaces
 {
     public interface IRepository<T> where T : Entity
     {

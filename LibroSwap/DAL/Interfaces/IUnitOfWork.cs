@@ -2,7 +2,7 @@
 using DAL.Repositories;
 using System.Threading.Tasks;
 
-namespace DAL.UnitOfWork
+namespace DAL.Interfaces
 {
     public interface IUnitOfWork
     {

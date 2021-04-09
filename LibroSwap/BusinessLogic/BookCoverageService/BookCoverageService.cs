@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DAL.UnitOfWork;
+using DAL.Interfaces;
 using DAL.Models;
 using AutoMapper;
 using Common.DTO;

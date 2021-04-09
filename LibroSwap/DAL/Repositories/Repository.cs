@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using DAL.Models;
+using DAL.Interfaces;
 using System.Threading.Tasks;
 using AutoMapper;
 

@@ -3,6 +3,7 @@ using BusinessLogic.CoverageService;
 using Common;
 using Common.DTO;
 using Common.MappingProfiles;
+using DAL.Interfaces;
 using DAL.Models;
 using DAL.UnitOfWork;
 using DAL;

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DAL.Repositories;
+using DAL.Interfaces;
 using DAL.Models;
 using System.Threading.Tasks;
 using AutoMapper;
