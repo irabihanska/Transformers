@@ -13,6 +13,8 @@ namespace DAL
 
         public DbSet<Language> Languages { get; set; }
 
+        public DbSet<Country> Countries { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -35,6 +37,15 @@ namespace DAL
                     new Language() { Id = 2, LanguageName = "Англійська", LanguageCode = "ENG" },
                     new Language() { Id = 3, LanguageName = "Французька", LanguageCode = "FRA" },
                     new Language() { Id = 4, LanguageName = "Китайська", LanguageCode = "CHI" } 
+                );
+
+            modelBuilder.Entity<Country>().HasData(
+                
+                    new Country() { Id = 1, CountryName = "Україна", CountryCode = "UA"},
+                    new Country() { Id = 2, CountryName = "Англія", CountryCode = "EN" },
+                    new Country() { Id = 3, CountryName = "Шотландія", CountryCode = "SCOT" },
+                    new Country() { Id = 4, CountryName = "Франція", CountryCode = "FR" }
+
                 );
         }
 
