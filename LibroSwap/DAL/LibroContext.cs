@@ -21,6 +21,10 @@ namespace DAL
 
         public DbSet<Bookhouse> Bookhouses { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Book> Books { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -57,6 +61,66 @@ namespace DAL
                 .HasForeignKey(u => u.CityId);
 
             modelBuilder.Entity<User>().ToTable("Users");
+
+            modelBuilder.Entity<Book>()
+                .HasOne<User>(b => b.CurrentOwner)
+                .WithMany(u => u.Books)
+                .HasForeignKey(b => b.CurrentOwnerId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Genre>(b => b.Genre)
+                .WithMany(g => g.Books)
+                .HasForeignKey(b => b.GenreId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Genre>(b => b.SecondaryGenre)
+                .WithMany(g => g.SecondaryBooks)
+                .HasForeignKey(b => b.SecondaryGenreId);
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Genre>(b => b.TertiaryGenre)
+                .WithMany(g => g.TertiaryBooks)
+                .HasForeignKey(b => b.TertiaryGenreId);
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Language>(b => b.Language)
+                .WithMany(l => l.Books)
+                .HasForeignKey(b => b.LanguageId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<BookCoverage>(b => b.BookCoverage)
+                .WithMany(bc => bc.Books)
+                .HasForeignKey(b => b.BookCoverageId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Bookhouse>(b => b.Bookhouse)
+                .WithMany(bh => bh.Books)
+                .HasForeignKey(b => b.BookhouseId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<City>(b => b.City)
+                .WithMany(c => c.Books)
+                .HasForeignKey(b => b.CityId)
+                .IsRequired()
+                .OnDelete(DeleteBehavior.NoAction);
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Author>(b => b.Author)
+                .WithMany(a => a.Books)
+                .HasForeignKey(b => b.AuthorId)
+                .IsRequired();
+
+            modelBuilder.Entity<Book>()
+                .HasOne<Author>(b => b.Translator)
+                .WithMany(t => t.TranslatedBooks)
+                .HasForeignKey(b => b.TranslatorId);
+
+            modelBuilder.Entity<Book>().ToTable("Books");
 
             modelBuilder.Seed();
         }

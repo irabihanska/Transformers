@@ -54,7 +54,6 @@ namespace DAL
                     new Author() { Id = 3, AuthorName = "Луїза", AuthorSurname = "Хей" },
                     new Author() { Id = 4, AuthorName = "Вадим", AuthorSurname = "Зеланд" },
                     new Author() { Id = 5, AuthorName = "Джоан", AuthorSurname = "Роулінг" }
-
                 );
 
             modelBuilder.Entity<Bookhouse>().HasData(
@@ -71,7 +70,13 @@ namespace DAL
                     new User() { Id = 3, UserName = "Konklab", Email = "tcothey1t@gmpg.org", AboutMe = "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti." },
                     new User() { Id = 4, UserName = "Ronstring", Email = "jmundow1y@sfgate.com", CityId = 2, AboutMe = "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit." },
                     new User() { Id = 5, UserName = "Flowdesk", Email = "tshimman1a@wp.com", CityId = 1, AboutMe = "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit." }
+                );
 
+            modelBuilder.Entity<Book>().HasData(
+
+                    new Book() { Id = 1, Title = "Амадока", CurrentOwnerId = 4, GenreId = 1, LanguageId = 1, BookCoverageId = 1, BookhouseId = 1, CityId = 4, AuthorId = 1, Pages = 829, Year = 2020, Translation = false},
+                    new Book() { Id = 2, Title = "Гаррі Поттер і Орден Фенікса", CurrentOwnerId = 2, GenreId = 1, LanguageId = 1, BookCoverageId = 1, BookhouseId = 2, CityId = 1, AuthorId = 5, Pages = 815, Year = 2003, Translation = true, TranslatorId = 1},
+                    new Book() { Id = 3, Title = "Harry Potter and the Order of the Phoenix", CurrentOwnerId = 1, GenreId = 1, LanguageId = 2, BookCoverageId = 2, BookhouseId = 3, CityId = 2, AuthorId = 5, Pages = 766, Year = 2003, Translation = false}
                 );
         }
     }

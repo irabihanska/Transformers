@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 
@@ -12,5 +13,7 @@ namespace DAL.Models
 
         [Column("language_code"), StringLength(3), Required]
         public string LanguageCode { get; set; }
+
+        public ICollection<Book> Books { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DAL.Models
@@ -11,5 +12,9 @@ namespace DAL.Models
 
         [Column("author_surname"), StringLength(200), Required]
         public string AuthorSurname { get; set; }
+
+        public ICollection<Book> Books { get; set; }
+
+        public ICollection<Book> TranslatedBooks { get; set; }
     }
 }

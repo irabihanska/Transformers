@@ -21,5 +21,7 @@ namespace DAL.Models
         public ICollection<Bookhouse> Bookhouses { get; set; }
 
         public ICollection<User> Users { get; set; }
+
+        public ICollection<Book> Books { get; set; }
     }
 }
