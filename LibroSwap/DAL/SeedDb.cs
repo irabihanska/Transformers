@@ -56,6 +56,13 @@ namespace DAL
                     new Author() { Id = 5, AuthorName = "Джоан", AuthorSurname = "Роулінг" }
 
                 );
+
+            modelBuilder.Entity<Bookhouse>().HasData(
+                
+                    new Bookhouse() { Id = 1, BookhouseName = "Видавництво Старого Лева", CityId = 1},
+                    new Bookhouse() { Id = 2, BookhouseName = "Видавництво Івана Малковича „А-ба-ба-га-ла-ма-га", CityId = 2},
+                    new Bookhouse() { Id = 3, BookhouseName = "Bloomsbury", CityId = 3}
+                );
         }
     }
 }

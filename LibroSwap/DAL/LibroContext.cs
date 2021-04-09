@@ -38,6 +38,13 @@ namespace DAL
 
             modelBuilder.Entity<Author>().ToTable("Authors");
 
+            modelBuilder.Entity<Bookhouse>()
+                .HasOne<City>(bh => bh.City)
+                .WithMany(ct => ct.Bookhouses)
+                .HasForeignKey(bh => bh.CityId);
+
+            modelBuilder.Entity<Bookhouse>().ToTable("Bookhouses");
+
             modelBuilder.Seed();
         }
 
