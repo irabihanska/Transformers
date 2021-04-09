@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Common.DTO;
 
-namespace Services
+namespace BusinessLogic
 {
     public interface IService<T> where T : BaseDto
     {
