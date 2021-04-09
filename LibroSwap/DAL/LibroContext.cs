@@ -15,38 +15,26 @@ namespace DAL
 
         public DbSet<Country> Countries { get; set; }
 
+        public DbSet<City> Cities { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<BookCoverage>().HasData(
-                    new BookCoverage() { Id = 1, CoverageName = "Тверда" },
-                    new BookCoverage() { Id = 2, CoverageName = "М'яка" }
-                );
+            modelBuilder.Entity<BookCoverage>().ToTable("Coverages");
 
-            modelBuilder.Entity<Genre>().HasData(
+            modelBuilder.Entity<Genre>().ToTable("Genres");
 
-                    new Genre() { Id = 1, GenreName = "Проза" },
-                    new Genre() { Id = 2, GenreName = "Поезія" },
-                    new Genre() { Id = 3, GenreName = "Драматургія" }
-                                        );
+            modelBuilder.Entity<Language>().ToTable("Languages");
 
-            modelBuilder.Entity<Language>().HasData(
+            modelBuilder.Entity<City>()
+                .HasOne<Country>(cnt => cnt.Country)
+                .WithMany(cts => cts.Cities)
+                .HasForeignKey(cnt => cnt.CountryId);
 
-                    new Language() { Id = 1, LanguageName = "Українська", LanguageCode = "UKR" },
-                    new Language() { Id = 2, LanguageName = "Англійська", LanguageCode = "ENG" },
-                    new Language() { Id = 3, LanguageName = "Французька", LanguageCode = "FRA" },
-                    new Language() { Id = 4, LanguageName = "Китайська", LanguageCode = "CHI" } 
-                );
+            this.SaveChanges();
 
-            modelBuilder.Entity<Country>().HasData(
-                
-                    new Country() { Id = 1, CountryName = "Україна", CountryCode = "UA"},
-                    new Country() { Id = 2, CountryName = "Англія", CountryCode = "EN" },
-                    new Country() { Id = 3, CountryName = "Шотландія", CountryCode = "SCOT" },
-                    new Country() { Id = 4, CountryName = "Франція", CountryCode = "FR" }
-
-                );
+            modelBuilder.Seed(this);
         }
 
         public LibroContext(DbContextOptions<LibroContext> options) : base(options)
