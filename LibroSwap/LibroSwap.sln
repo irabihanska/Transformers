@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{660F1C57-8522-4380-BBF4-BBDA19A35DCB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{4F7EBF37-0CCC-4ADB-A154-8D6E5727C1E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7AEE10D-8BE5-4E84-A9D2-CB1269419183} = {F7AEE10D-8BE5-4E84-A9D2-CB1269419183}
+		{660F1C57-8522-4380-BBF4-BBDA19A35DCB} = {660F1C57-8522-4380-BBF4-BBDA19A35DCB}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
