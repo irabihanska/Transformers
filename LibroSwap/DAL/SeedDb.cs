@@ -46,6 +46,16 @@ namespace DAL
                 
                 );
 
+
+            modelBuilder.Entity<Author>().HasData(
+                
+                    new Author() { Id = 1, AuthorName = "Софія", AuthorSurname = "Андрухович" },
+                    new Author() { Id = 2, AuthorName = "Оксана", AuthorSurname = "Забужко" },
+                    new Author() { Id = 3, AuthorName = "Луїза", AuthorSurname = "Хей" },
+                    new Author() { Id = 4, AuthorName = "Вадим", AuthorSurname = "Зеланд" },
+                    new Author() { Id = 5, AuthorName = "Джоан", AuthorSurname = "Роулінг" }
+
+                );
         }
     }
 }

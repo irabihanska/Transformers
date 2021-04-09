@@ -27,10 +27,16 @@ namespace DAL
 
             modelBuilder.Entity<Language>().ToTable("Languages");
 
+            modelBuilder.Entity<Country>().ToTable("Countries");
+
             modelBuilder.Entity<City>()
                 .HasOne<Country>(cnt => cnt.Country)
                 .WithMany(cts => cts.Cities)
                 .HasForeignKey(cnt => cnt.CountryId);
+
+            modelBuilder.Entity<City>().ToTable("Cities");
+
+            modelBuilder.Entity<Author>().ToTable("Authors");
 
             modelBuilder.Seed();
         }
