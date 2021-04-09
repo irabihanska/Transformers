@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "AzAg7a7Y/sO+WpFhTlFAjj8+xAafihAUA1isRMWnKTC60jXArv5nKcIXxMQOiYTLee9DRTiiDfcyR88BWp+cGw==",
+  "dgSpecHash": "vEhUW81AhQVk40f5wd+rAnPvvhJMLQKYHASwENIlUYLaZoA4yfwEB7Si68WZokNTiIDRU7nlubzuwBkvtAkiPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Костя\\Documents\\GitHub\\Transformers\\LibroSwap\\LibroSwap\\LibroSwap.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Костя\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Костя\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Костя\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.8\\microsoft.aspnetcore.cryptography.internal.3.1.8.nupkg.sha512",
     "C:\\Users\\Костя\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.8\\microsoft.aspnetcore.cryptography.keyderivation.3.1.8.nupkg.sha512",
     "C:\\Users\\Костя\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.8.nupkg.sha512",

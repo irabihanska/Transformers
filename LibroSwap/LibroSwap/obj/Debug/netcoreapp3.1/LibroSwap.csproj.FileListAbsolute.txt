@@ -204,3 +204,4 @@ C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.dll
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.pdb
 C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\obj\Debug\netcoreapp3.1\LibroSwap.genruntimeconfig.cache
+C:\Users\Костя\Documents\GitHub\Transformers\LibroSwap\LibroSwap\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

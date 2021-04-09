@@ -2,7 +2,7 @@
 
 namespace BusinessLogic.CoverageService
 {
-    interface IBookCoverageService : IService<BookCoverageDTO>
+    public interface IBookCoverageService : IService<BookCoverageDTO>
     {
     }
 }

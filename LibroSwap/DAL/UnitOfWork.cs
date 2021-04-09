@@ -7,7 +7,7 @@ using AutoMapper;
 
 namespace DAL.UnitOfWork
 {
-    class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private LibroContext _context;
         private readonly IMapper _mapper;

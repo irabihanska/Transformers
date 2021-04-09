@@ -1,3 +1,11 @@
+using AutoMapper;
+using BusinessLogic.CoverageService;
+using Common;
+using Common.DTO;
+using Common.MappingProfiles;
+using DAL.Models;
+using DAL.UnitOfWork;
+using DAL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,12 +35,24 @@ namespace LibroSwap
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
+            services.AddOptions();
+
+            services.AddDbContext<LibroContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("LibroSwap")));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddTransient<IBookCoverageService, BookCoverageService>();
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddAutoMapper(cfg =>
+            {
+                cfg.AddProfile<BookCoverageProfile>();
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

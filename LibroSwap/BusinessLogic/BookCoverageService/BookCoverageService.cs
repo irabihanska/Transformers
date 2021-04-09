@@ -7,7 +7,7 @@ using Common.DTO;
 
 namespace BusinessLogic.CoverageService
 {
-    class BookCoverageService : IBookCoverageService
+    public class BookCoverageService : IBookCoverageService
     {
         private IUnitOfWork _unitOfWork;
 
