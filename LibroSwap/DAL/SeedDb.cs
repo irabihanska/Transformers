@@ -5,7 +5,7 @@ namespace DAL
 {
     public static class SeedDb
     {
-        public static void Seed(this ModelBuilder modelBuilder, LibroContext dbContext)
+        public static void Seed(this ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<BookCoverage>().HasData(
                     new BookCoverage() { Id = 1, CoverageName = "Тверда" },
@@ -39,10 +39,10 @@ namespace DAL
 
             modelBuilder.Entity<City>().HasData(
 
-                    new City() { Id = 1, CityName = "Львів", CityCode = "LV", Country = dbContext.Countries.Find(1) },
-                    new City() { Id = 2, CityName = "Київ", CityCode = "KYI", Country = dbContext.Countries.Find(1) },
-                    new City() { Id = 3, CityName = "Лондон", CityCode = "LND", Country = dbContext.Countries.Find(2) },
-                    new City() { Id = 4, CityName = "Париж", CityCode = "PRS", Country = dbContext.Countries.Find(4) }
+                    new City() { Id = 1, CityName = "Львів", CityCode = "LV", CountryId = 1 },
+                    new City() { Id = 2, CityName = "Київ", CityCode = "KYI", CountryId = 1 },
+                    new City() { Id = 3, CityName = "Лондон", CityCode = "LND", CountryId = 2 },
+                    new City() { Id = 4, CityName = "Париж", CityCode = "PRS", CountryId = 4 }
                 
                 );
 

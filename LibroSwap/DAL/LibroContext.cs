@@ -32,9 +32,7 @@ namespace DAL
                 .WithMany(cts => cts.Cities)
                 .HasForeignKey(cnt => cnt.CountryId);
 
-            this.SaveChanges();
-
-            modelBuilder.Seed(this);
+            modelBuilder.Seed();
         }
 
         public LibroContext(DbContextOptions<LibroContext> options) : base(options)
