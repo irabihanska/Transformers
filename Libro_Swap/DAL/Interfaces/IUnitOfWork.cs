@@ -6,6 +6,8 @@ namespace DAL.Interfaces
     {
         IBookCoverageRepository CoverageRepository { get; }
 
+        IUserRepository UserRepository { get; }
+
         void Save();
 
         Task SaveAsync();

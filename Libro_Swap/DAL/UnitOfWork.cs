@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using DAL.Repositories;
+﻿using DAL.Repositories;
 using DAL.Interfaces;
 using DAL.Models;
 using System.Threading.Tasks;
@@ -14,6 +12,8 @@ namespace DAL.UnitOfWork
         private readonly IMapper _mapper;
 
         private IBookCoverageRepository _coverageRepository;
+
+        private IUserRepository _userRepository;
 
         public UnitOfWork(Libro_SwapDBContext context)
         {
@@ -31,5 +31,7 @@ namespace DAL.UnitOfWork
         }
 
         public IBookCoverageRepository CoverageRepository => _coverageRepository ?? (_coverageRepository = new BookCoveragesRepository(_context, _mapper));
+
+        public IUserRepository UserRepository => _userRepository ?? (_userRepository = new UserRepository(_context, _mapper));
     }
 }

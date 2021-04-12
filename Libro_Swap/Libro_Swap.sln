@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Libro_Swap", "Libro_Swap\Libro_Swap.csproj", "{5A319131-2EFC-41B5-8E09-C1AB17974F8A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1E6A5727-5968-4CA5-A88C-2FC73EB548AA} = {1E6A5727-5968-4CA5-A88C-2FC73EB548AA}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1E6A5727-5968-4CA5-A88C-2FC73EB548AA}"
 EndProject
