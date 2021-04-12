@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using DAL.Models;
 
 namespace DAL
 {
-    public class Libro_SwapDBContext : IdentityDbContext<Libro_SwapUser>
+    public class Libro_SwapDBContext : IdentityDbContext <Libro_SwapUser, IdentityRole<int>, int>
     {
         public Libro_SwapDBContext(DbContextOptions<Libro_SwapDBContext> options)
             : base(options)
