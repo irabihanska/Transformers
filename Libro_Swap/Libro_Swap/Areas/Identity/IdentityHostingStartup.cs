@@ -1,6 +1,6 @@
 ﻿using System;
-using Libro_Swap.Areas.Identity.Data;
-using Libro_Swap.Data;
+using DAL;
+using DAL.Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -18,7 +18,7 @@ namespace Libro_Swap.Areas.Identity
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<Libro_SwapDBContext>(options =>
                     options.UseSqlServer(
-                        context.Configuration.GetConnectionString("Libro_SwapDBContextConnection")));
+                        context.Configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly("Libro_Swap")));
 
                 services.AddDefaultIdentity<Libro_SwapUser>(options =>
                 {
