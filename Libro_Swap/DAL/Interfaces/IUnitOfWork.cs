@@ -6,6 +6,8 @@ namespace DAL.Interfaces
     {
         IBookCoverageRepository CoverageRepository { get; }
 
+        IBookRepository BookRepository { get;  }
+
         IUserRepository UserRepository { get; }
 
         void Save();

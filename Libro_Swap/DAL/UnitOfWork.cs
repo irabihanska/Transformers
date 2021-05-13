@@ -15,6 +15,8 @@ namespace DAL.UnitOfWork
 
         private IUserRepository _userRepository;
 
+        private IBookRepository _bookRepository;
+
         public UnitOfWork(Libro_SwapDBContext context)
         {
             _context = context;
@@ -30,8 +32,10 @@ namespace DAL.UnitOfWork
             return _context.SaveChangesAsync();
         }
 
-        public IBookCoverageRepository CoverageRepository => _coverageRepository ?? (_coverageRepository = new BookCoveragesRepository(_context, _mapper));
+        public IBookCoverageRepository CoverageRepository => _coverageRepository ??= new BookCoveragesRepository(_context, _mapper);
 
-        public IUserRepository UserRepository => _userRepository ?? (_userRepository = new UserRepository(_context, _mapper));
+        public IUserRepository UserRepository => _userRepository ??= new UserRepository(_context, _mapper);
+
+        public IBookRepository BookRepository => _bookRepository ??= new BookRepository(_context, _mapper);
     }
 }
