@@ -106,8 +106,7 @@ namespace DAL
             modelBuilder.Entity<Book>()
                 .HasOne<Bookhouse>(b => b.Bookhouse)
                 .WithMany(bh => bh.Books)
-                .HasForeignKey(b => b.BookhouseId)
-                .IsRequired();
+                .HasForeignKey(b => b.BookhouseId);
 
             modelBuilder.Entity<Book>()
                 .HasOne<City>(b => b.City)
@@ -119,8 +118,7 @@ namespace DAL
             modelBuilder.Entity<Book>()
                 .HasOne<BookAuthor>(b => b.Author)
                 .WithMany(a => a.Books)
-                .HasForeignKey(b => b.AuthorId)
-                .IsRequired();
+                .HasForeignKey(b => b.AuthorId);
 
             modelBuilder.Entity<Book>()
                 .HasOne<BookAuthor>(b => b.Translator)

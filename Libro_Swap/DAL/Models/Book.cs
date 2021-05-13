@@ -40,7 +40,7 @@ namespace DAL.Models
         public BookCoverage BookCoverage { get; set; }
 
         [Column("bookhouse_id")]
-        public int BookhouseId { get; set; }
+        public int? BookhouseId { get; set; }
 
         public Bookhouse Bookhouse { get; set; }
 
@@ -50,7 +50,7 @@ namespace DAL.Models
         public City City { get; set; }
 
         [Column("author_id")]
-        public int AuthorId { get; set; }
+        public int? AuthorId { get; set; }
 
         public BookAuthor Author { get; set; }
 
