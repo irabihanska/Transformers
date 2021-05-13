@@ -1,0 +1,441 @@
+
+.component-2 {
+    width:1350px;
+    background-color: rgba(243, 236, 222, 0.83);
+    padding: 32px 103px 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.libroswap {
+    font-family: "Basis Grotesque Pro";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: normal;
+    color: var(--black);
+    margin-bottom: 70px;
+}
+
+.flex-wrapper-four {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-wrapper-one {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/ce1ff033-f411-4b27-b13b-f852b2048346.png");
+    margin-right: 39px;
+    padding: 238px 510px 204px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sherlok-6 {
+    align-self: stretch;
+    object-fit: cover;
+}
+
+    .sherlok-6:not(:last-of-type) {
+        margin-bottom: 4px;
+    }
+
+.flex-wrapper-six {
+    padding: 18px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-wrapper-seven {
+    display: flex;
+    align-items: flex-start;
+}
+
+    .flex-wrapper-seven:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+
+.sherlok-golms {
+    font-family: "Basis Grotesque Pro";
+    font-size: 60px;
+    font-weight: 900;
+    line-height: normal;
+    color: var(--black);
+    align-self: stretch;
+    margin-right: 56px;
+    letter-spacing: 1.8px;
+}
+
+.heart {
+    margin-top: 26px;
+}
+
+.flex-wrapper-eight {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.harakteristiki {
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
+    color: var(--black);
+    align-self: stretch;
+    margin-right: 191px;
+    letter-spacing: 0.9px;
+}
+
+.l-viv-10-04-2021 {
+    font-family: "Basis Grotesque Pro";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+    color: rgba(255, 61, 0, 1);
+    margin-top: 20px;
+    letter-spacing: 0.36px;
+}
+
+.flex-wrapper-nine {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.relative-wrapper-five {
+    width: 15.24%;
+    height: 97.06%;
+    margin-right: 183px;
+    position: relative;
+}
+
+.avtor {
+    font-family: "Kazimir-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    position: relative;
+    letter-spacing: 0.75px;
+}
+
+.group-39 {
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -182px;
+    bottom: 5px;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-14 {
+    width: 0.55%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-14:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.artur-konan-dojl {
+    font-family: "Kazimir-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    letter-spacing: 0.75px;
+}
+
+.flex-wrapper-ten {
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.relative-wrapper-one {
+    width: 19.41%;
+    height: 97.06%;
+    margin-right: 185px;
+    position: relative;
+}
+
+.group-40 {
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -184px;
+    bottom: 4px;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.flex-wrapper-eleven {
+    margin-bottom: 17px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.relative-wrapper-two {
+    width: 33.27%;
+    margin-right: 87px;
+    align-self: stretch;
+    position: relative;
+}
+
+.group-42 {
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -86px;
+    bottom: 6px;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-14-two {
+    width: 1.2%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-14-two:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.a-ba-ba-ga-la-ma-ga {
+    font-family: "Kazimir-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    align-self: stretch;
+    letter-spacing: 0.75px;
+}
+
+.relative-wrapper-three {
+    width: 50.64%;
+    margin-right: 100px;
+    align-self: stretch;
+    position: relative;
+}
+
+.group-44 {
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -99px;
+    bottom: 6px;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-14-three {
+    width: 1.03%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-14-three:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.group-41 {
+    margin-top: 28px;
+    margin-right: 1px;
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-107 {
+    width: 0.53%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-107:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.pereklad {
+    font-family: "Kazimir-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    align-self: stretch;
+    letter-spacing: 0.75px;
+}
+
+    .pereklad:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.group-46 {
+    margin-top: 26px;
+    margin-right: 1px;
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-78 {
+    width: 0.78%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-78:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.ellipse-17 {
+    width: 1.1%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-17:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.relative-wrapper-four {
+    width: 37.75%;
+    margin-right: 127px;
+    align-self: stretch;
+    position: relative;
+}
+
+.group-47 {
+    padding: 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    right: -126px;
+    bottom: 4px;
+    border-left: 1px solid rgba(255, 61, 0, 0.7);
+    border-right: 1px solid rgba(255, 61, 0, 0.7);
+}
+
+.ellipse-75 {
+    width: 0.81%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-75:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.ellipse-15 {
+    width: 9.09%;
+    background-color: rgba(255, 61, 0, 0.7);
+    border-radius: 50%;
+    align-self: stretch;
+}
+
+    .ellipse-15:not(:last-of-type) {
+        margin-right: 1px;
+    }
+
+.flex-wrapper-two {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/693c11e3-e1bf-404a-8a7f-21df909fe72e.png");
+    margin-right: 120px;
+    padding: 243px 510px 199px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.group-48 {
+    background-color: rgba(255, 61, 0, 1);
+    margin-top: 39px;
+    border-radius: 20px;
+    padding: 0 109px 1px;
+    display: flex;
+    align-items: center;
+}
+
+.obminjati {
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
+    color: var(--white);
+    flex: 1;
+    align-self: stretch;
+    letter-spacing: 0.9px;
+}
+
+.flex-wrapper-three {
+    background-color: var(--white);
+    margin-bottom: 53px;
+    padding: 0 45px;
+    position: relative;
+}
+
+.sherlok-zmist-5 {
+    position: relative;
+}
+
+.sherlok-8 {
+    position: absolute;
+    left: 30px;
+    top: 248px;
+}
+
+.sherlock-holmes-8 {
+    position: absolute;
+    left: 30px;
+    top: 302px;
+}
+
+.sherlok-zmist-8 {
+    position: absolute;
+    left: 30px;
+    top: 356px;
+}
+
+.opis {
+    font-family: "Basis Grotesque Pro";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: normal;
+    color: var(--black);
+    margin-bottom: 20px;
+    letter-spacing: 0.9px;
+}
+
+.num-1887-roku-v-bitons-komu-rizdvjanomu-al-m {
+    max-width: 1159px;
+    font-family: "Kazimir-Regular";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    color: var(--black);
+    margin-left: 1px;
+    letter-spacing: 0.75px;
+}

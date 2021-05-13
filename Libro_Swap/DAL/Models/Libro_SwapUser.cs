@@ -22,7 +22,7 @@ namespace DAL.Models
         [Column("phone"), StringLength(20)]
         public string Phone { get; set; }
 
-        [Column("about_me"), StringLength(int.MaxValue), Required]
+        [Column("about_me"), StringLength(int.MaxValue)]
         public string AboutMe { get; set; }
 
         [Column("recommendation"), StringLength(int.MaxValue)]

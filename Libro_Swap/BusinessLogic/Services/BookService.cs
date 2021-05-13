@@ -35,6 +35,11 @@ namespace BusinessLogic.Services
             return _mapper.Map<List<Book>, List<BookDTO>>(items);
         }
 
+        public async Task<List<Book>> GetAllWithDetails()
+        {
+            return await _unitOfWork.BookRepository.GetAllWithDetailsAsync();
+        }
+
         public async Task<BookDTO> Create(BookDTO item)
         {
             var newItem = _mapper.Map<BookDTO, Book>(item);

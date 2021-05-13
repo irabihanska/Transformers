@@ -1,0 +1,271 @@
+.maket-books {
+    background: linear-gradient( rgba(243, 236, 222, 0.83), rgba(243, 236, 222, 0.83) ), rgba(255, 255, 255, 0.83);
+    padding: 32px 102px 693px 30px;
+    width:1250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.flex-wrapper-two {
+    margin-bottom: 39px;
+    padding: 0 0 0 3px;
+    display: flex;
+    align-items:center;
+
+}
+
+.sortuvati-za {
+    color: var(--black);
+    text-align: center;
+    margin-right: 21px;
+    letter-spacing: 0.39px;
+    font-family: var(--basis-grotesque-pro-13-black-family);
+    font-size: var(--basis-grotesque-pro-13-black-size);
+    font-weight: var(--basis-grotesque-pro-13-black-weight);
+    line-height: var( --basis-grotesque-pro-13-black-line-height );
+}
+
+.flex-wrapper-three {
+    margin-bottom: 49px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-wrapper-six {
+    margin-right: 17px;
+    padding: 44px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vsi {
+    color: var(--black);
+    letter-spacing: 0.9px;
+    font-family: var(--basis-grotesque-pro-30-black-family);
+    font-size: var(--basis-grotesque-pro-30-black-size);
+    font-weight: var(--basis-grotesque-pro-30-black-weight);
+    line-height: var( --basis-grotesque-pro-30-black-line-height );
+}
+
+    .vsi:not(:last-of-type) {
+        margin-bottom: 18px;
+    }
+
+.zhanr {
+    color: var(--black);
+    margin-bottom: 14px;
+    letter-spacing: 0.9px;
+    font-family: var(--basis-grotesque-pro-30-black-family);
+    font-size: var(--basis-grotesque-pro-30-black-size);
+    font-weight: var(--basis-grotesque-pro-30-black-weight);
+    line-height: var( --basis-grotesque-pro-30-black-line-height );
+}
+
+.flex-wrapper-seven {
+    margin-right: 69px;
+    padding: 111px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.group-43:not(:last-of-type) {
+    margin-bottom: 34px;
+}
+
+.flex-wrapper-eight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .flex-wrapper-eight:not(:last-of-type) {
+        margin-right: 60px;
+    }
+
+.sherlock-holmes-1 {
+    margin-bottom: 4px;
+}
+
+.group-47 {
+    background-color: var(--transparent-orange-red);
+    margin-bottom: 27px;
+    border-radius: 50px;
+    padding: 2px 15px 2px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.new {
+    font-family: "Kazimir-Light";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    letter-spacing: 0.6px;
+}
+
+.sherlok-golms {
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.flex-wrapper-nine {
+    margin-right: 52px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.num-20171208144529-003844300-1-1 {
+    margin-bottom: 6px;
+}
+
+.group-48 {
+    background-color: var(--transparent-orange-red);
+    margin-bottom: 25px;
+    border-radius: 50px;
+    padding: 2px 15px 2px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.garri-potter-i-filosofs-kij-kamin {
+    height: 75px;
+    width: 156px;
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.flex-wrapper-ten {
+    margin-right: 49px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peremozhcju-ne-distanet-sja-nichogo {
+    max-width: 197px;
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.group-50 {
+    background-color: var(--transparent-orange-red);
+    margin-bottom: 25px;
+    border-radius: 50px;
+    padding: 2px 16px 2px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.muzej-pokinutih-sekretiv {
+    max-width: 183px;
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.flex-wrapper-four {
+    margin-bottom: 30.14px;
+    padding: 0 0 0 261px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.num-378381528-w640-h640-gloriya-povnij-atlas:not(:last-of-type) {
+    margin-right: 59px;
+}
+
+.num-52451-96711-1 {
+    margin-right: 60px;
+}
+
+.flex-wrapper-five {
+    margin-bottom: 61px;
+    padding: 0 0 0 252px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.povnij-atlas-likars-kih-roslin {
+    max-width: 197px;
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    margin-right: 70px;
+    letter-spacing: 0.6px;
+   
+}
+
+.vdivljajuchis-u-sonce {
+    max-width: 142px;
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    margin-right: 125px;
+    letter-spacing: 0.6px;
+}
+
+.amadoka {
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+    .amadoka:not(:last-of-type) {
+        margin-right: 110px;
+    }
+
+.flex-wrapper-one {
+    background-color: var(--transparent-gray);
+    margin-bottom: 30px;
+    margin-left: 260px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.antena {
+    font-family: "Kazimir-Regular";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    text-align: center;
+    margin-left: 314px;
+    letter-spacing: 0.6px;
+}

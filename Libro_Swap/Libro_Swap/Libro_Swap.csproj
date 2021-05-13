@@ -5,20 +5,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Areas\Identity\Data\**" />
+    <Content Remove="Areas\Identity\Data\**" />
+    <EmbeddedResource Remove="Areas\Identity\Data\**" />
+    <None Remove="Areas\Identity\Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\assets_0e482e83-d702-486d-8890-36b92e6e41d1.svg" />
+    <None Include="wwwroot\assets\assets_50b77e8b-cde3-4783-92da-b0d7718cfd47.svg" />
+    <None Include="wwwroot\assets\assets_76fbbedd-04b0-48e4-a4e7-39ad5a74c136.svg" />
+    <None Include="wwwroot\assets\assets_b289fb3e-053d-46dc-ab21-4b66d69de499.svg" />
+    <None Include="wwwroot\assets\assets_bbf01ee2-a166-4663-b7e4-4f6307586c2a.svg" />
+    <None Include="wwwroot\assets\bootstrap\css\bootstrap.css.map" />
+    <None Include="wwwroot\assets\bootstrap\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.js" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.js.map" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\bootstrap\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\js\jquery.min.js" />
+    <None Include="wwwroot\assets\js\jquery.scrollex.min.js" />
+    <None Include="wwwroot\assets\js\jquery.scrolly.min.js" />
+    <None Include="wwwroot\assets\js\main.js" />
+    <None Include="wwwroot\fonts\Kazimir-Light.woff2" />
+    <None Include="wwwroot\fonts\Kazimir-Regular.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Areas\Identity\Data\" />
   </ItemGroup>
 
   <ItemGroup>
