@@ -31,6 +31,7 @@ namespace BusinessLogic.Services
         public async Task<List<BookCoverageDTO>> GetAll()
         {
             var items = await _unitOfWork.CoverageRepository.GetAll();
+                //.Include(b => b.Author).Include(b => b.BookCoverage).Include(b => b.Bookhouse).Include(b => b.City).Include(b => b.CurrentOwner).Include(b => b.Genre).Include(b => b.Language).Include(b => b.SecondaryGenre).Include(b => b.TertiaryGenre).Include(b => b.Translator); ;
 
             return _mapper.Map<List<BookCoverage>, List<BookCoverageDTO>>(items);
         }

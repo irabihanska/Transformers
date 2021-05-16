@@ -32,9 +32,9 @@ namespace Libro_Swap.Migrations
                         .HasColumnType("int")
                         .HasColumnName("author_id");
 
-                    b.Property<int>("BookCoverageId")
+                    b.Property<int>("BookId")
                         .HasColumnType("int")
-                        .HasColumnName("book_coverage_id");
+                        .HasColumnName("book__id");
 
                     b.Property<int>("BookhouseId")
                         .HasColumnType("int")
@@ -87,7 +87,7 @@ namespace Libro_Swap.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.HasIndex("BookCoverageId");
+                    b.HasIndex("BookId");
 
                     b.HasIndex("BookhouseId");
 
@@ -112,7 +112,7 @@ namespace Libro_Swap.Migrations
                         {
                             Id = 1,
                             AuthorId = 1,
-                            BookCoverageId = 1,
+                            BookId = 1,
                             BookhouseId = 1,
                             CityId = 4,
                             CurrentOwnerId = 4,
@@ -127,7 +127,7 @@ namespace Libro_Swap.Migrations
                         {
                             Id = 2,
                             AuthorId = 5,
-                            BookCoverageId = 1,
+                            BookId = 1,
                             BookhouseId = 2,
                             CityId = 1,
                             CurrentOwnerId = 2,
@@ -143,7 +143,7 @@ namespace Libro_Swap.Migrations
                         {
                             Id = 3,
                             AuthorId = 5,
-                            BookCoverageId = 2,
+                            BookId = 2,
                             BookhouseId = 3,
                             CityId = 2,
                             CurrentOwnerId = 1,
@@ -212,33 +212,33 @@ namespace Libro_Swap.Migrations
                         });
                 });
 
-            modelBuilder.Entity("DAL.Models.BookCoverage", b =>
+            modelBuilder.Entity("DAL.Models.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CoverageName")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)")
-                        .HasColumnName("coverage_name");
+                        .HasColumnName("_name");
 
                     b.HasKey("Id");
 
-                    b.ToTable("BookCoverages");
+                    b.ToTable("Books");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            CoverageName = "Тверда"
+                            Name = "Тверда"
                         },
                         new
                         {
                             Id = 2,
-                            CoverageName = "М'яка"
+                            Name = "М'яка"
                         });
                 });
 
@@ -788,9 +788,9 @@ namespace Libro_Swap.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DAL.Models.BookCoverage", "BookCoverage")
+                    b.HasOne("DAL.Models.Book", "Book")
                         .WithMany("Books")
-                        .HasForeignKey("BookCoverageId")
+                        .HasForeignKey("BookId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -838,7 +838,7 @@ namespace Libro_Swap.Migrations
 
                     b.Navigation("Author");
 
-                    b.Navigation("BookCoverage");
+                    b.Navigation("Book");
 
                     b.Navigation("Bookhouse");
 
@@ -946,7 +946,7 @@ namespace Libro_Swap.Migrations
                     b.Navigation("TranslatedBooks");
                 });
 
-            modelBuilder.Entity("DAL.Models.BookCoverage", b =>
+            modelBuilder.Entity("DAL.Models.Book", b =>
                 {
                     b.Navigation("Books");
                 });

@@ -41,6 +41,7 @@ namespace Libro_Swap
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+            services.AddTransient<IBookService, BookService>();
             services.AddTransient<IBookCoverageService, BookCoverageService>();
 
             services.AddControllersWithViews();

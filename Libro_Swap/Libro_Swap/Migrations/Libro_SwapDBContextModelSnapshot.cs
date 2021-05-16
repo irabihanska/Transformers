@@ -42,7 +42,8 @@ namespace Libro_Swap.Migrations
                         .HasColumnType("int")
                         .HasColumnName("city_id");
 
-                    b.Property<int>("CurrentOwnerId")
+                    b.Property<int?>("CurrentOwnerId")
+                        .IsRequired()
                         .HasColumnType("int")
                         .HasColumnName("current_owner_id");
 
@@ -487,7 +488,6 @@ namespace Libro_Swap.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("AboutMe")
-                        .IsRequired()
                         .HasMaxLength(2147483647)
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("about_me");

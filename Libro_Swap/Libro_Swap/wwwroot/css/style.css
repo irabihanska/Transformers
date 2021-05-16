@@ -1,0 +1,523 @@
+
+.component-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-wrapper-two {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/a250f0ed-8c2c-4733-abc8-7f62f7221a6e.png");
+    padding: 32px 335px 39px 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:1546px;
+}
+
+.flex-wrapper-ten {
+    margin-bottom: 205px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.libroswap {
+    font-family: "Basis Grotesque Pro";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: normal;
+    color: var(--white);
+    align-self: stretch;
+    margin-right: 821px;
+}
+
+.loupe {
+    margin-top: 22px;
+    margin-right: 34px;
+    padding: 0 3.58px 3.58px 0;
+    position: relative;
+}
+
+.vector {
+    position: relative;
+}
+
+.vector-two {
+    position: absolute;
+    left: 20.57px;
+    top: 20.57px;
+}
+
+.heart {
+    margin-top: 22px;
+    margin-right: 33px;
+
+}
+
+.group-39 {
+    background-color: var(--transparent-silver);
+    margin-top: 20px;
+    padding: 6px 1px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.group {
+    padding: 5.33px 0 5.34px;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid var(--white);
+    border-bottom: 3px solid var(--white);
+}
+
+.vector-three {
+    background-color: var(--white);
+    flex: 1;
+    align-self: stretch;
+}
+
+.relative-wrapper-one {
+    width: 45.2%;
+    height: 21.15%;
+    margin-bottom: 194px;
+    margin-left: 594px;
+    position: relative;
+}
+
+.libro-swap {
+    font-family: "Bellota";
+    font-size: 105px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    position: relative;
+}
+
+.obmin {
+    font-family: "Kazimir-Light";
+    font-size: 105px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    position: absolute;
+    left: 57px;
+    bottom: -104px;
+}
+
+.knigami {
+    font-family: "Kazimir-Light";
+    font-size: 105px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    position: absolute;
+    right: 11px;
+    bottom: -185px;
+}
+
+.mouse {
+    background-color: var(--transparent-dark-slate-gray);
+    margin-left: 559px;
+    padding: 0 6.33px 1.87px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.flex-wrapper-three {
+    background-color: rgba(255, 61, 0, 0.75);
+    padding: 0 47px 0 103px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.alfons-morales-yl-swj-sy7stw-unsplash-1 {
+    align-self: stretch;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.flex-wrapper-eleven {
+    padding: 37px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.scho-zh-take-libro-swap {
+    width: 780px;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 57px;
+    margin-left: 16px;
+    font-family: var(--bellota-50-regular-family);
+    font-size: var(--bellota-50-regular-size);
+    font-weight: var(--bellota-50-regular-weight);
+    line-height: var(--bellota-50-regular-line-height);
+}
+
+.ce-nevelika-internet-biblioteka-ce-svjat {
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    align-self: stretch;
+    display: flex;
+    text-align: center;
+}
+
+.flex-wrapper-four {
+    background-color: rgba(243, 236, 222, 0.83);
+    padding: 43px 47px 47px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.vdihni-nove-zhittja-v-knigi-zamist-togo {
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    flex: 1;
+    align-self: stretch;
+    display: flex;
+    width:1451px;
+}
+
+.flex-wrapper-five {
+    background-color: rgba(255, 61, 0, 0.75);
+    margin-bottom: 1px;
+    padding: 32px 229px 76px 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.flex-wrapper-twelve {
+    margin-bottom: 44px;
+    padding: 0 0 0 36px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.jak-vidbuvaet-sam-obmin {
+    width: 553px;
+    color: var(--white);
+    align-self: stretch;
+    margin-right: 27px;
+    letter-spacing: 1.5px;
+    font-family: "Basis Grotesque Pro";
+    font-size: 40px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.arrow-1 {
+    margin-top: 10px;
+}
+
+.line-5 {
+    width: 95.63%;
+    height: 0.12%;
+    background-color: var(--white);
+    margin-bottom: 50px;
+    margin-left: 36px;
+}
+
+.flex-wrapper-thirteen {
+    margin-bottom: 39px;
+    padding: 0 0 0 36px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.num-01 {
+    height: 76px;
+    width: 47px;
+    font-family: "Bellota";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-top: 106px;
+    margin-right: 39px;
+    letter-spacing: 1.35px;
+}
+
+
+
+.flex-wrapper-fourteen {
+    margin-bottom: 40px;
+    padding: 0 0 0 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.num-02 {
+    width: 56px;
+    font-family: "Bellota";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    margin-right: 19px;
+    letter-spacing: 1.35px;
+}
+
+.flex-wrapper-seventeen {
+    margin-right: 20px;
+    padding: 2px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.dlja-pochatku-vibiraete-knigukomikszhurn {
+    height: 236px;
+    width: 514px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-top: 72px;
+    letter-spacing: 1.05px;
+}
+
+.pislja-chogovam-potribno-zvjazatis-iz-vl {
+    height: 78px;
+    width: 500px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-bottom: 36px;
+    margin-left: 5px;
+    letter-spacing: 1.05px;
+}
+
+.ce-mozhna-zrobiti-za-dopomogoju-email-abo {
+    height: 219px;
+    width: 487px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    letter-spacing: 1.05px;
+}
+
+.second-photo-1 {
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.num-03 {
+    height: 82px;
+    width: 56px;
+    font-family: "Bellota";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-top: 73px;
+    margin-right: 25px;
+    letter-spacing: 1.35px;
+}
+
+.domovtes-za-sposib-dostavki {
+    height: 88px;
+    width: 532px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-top: 87px;
+    letter-spacing: 1.05px;
+}
+
+.flex-wrapper-sixteen {
+    display: flex;
+    align-items: flex-start;
+}
+
+.num-04 {
+    height: 44px;
+    width: 72px;
+    font-family: "Bellota";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-right: 12px;
+    letter-spacing: 1.35px;
+}
+
+.flex-wrapper-eighteen {
+    margin-right: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.i-os-kniga-prjamue-do-vas {
+    height: 70px;
+    width: 499px;
+    font-family: "Basic";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    margin-bottom: 32px;
+    margin-left: 7px;
+    letter-spacing: 1.05px;
+}
+
+.takozh-mozhete-vistaviti-svoi-knigi-chita {
+    height: 266px;
+    width: 484px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    display: flex;
+    letter-spacing: 1.05px;
+}
+
+.flex-wrapper-six {
+    background-color: rgba(243, 236, 222, 0.83);
+    padding: 43px 93px 67px 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vinikli-zapitannja {
+    width: 1366px;
+    left:0px;
+    opacity:0,83;
+    color: var(--black);
+    margin-bottom: 6px;
+    letter-spacing: 1.5px;
+    height: 36px;
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    margin-top: 2px;
+}
+
+.todi-zvertajsja-na-nashu-elektronnu-skrin {
+    color: var(--black);
+    align-self: stretch;
+    display: flex;
+    letter-spacing: 1.5px;
+    font-family: var(--bellota-50-regular-family);
+    font-size: var(--bellota-50-regular-size);
+    font-weight: var(--bellota-50-regular-weight);
+    line-height: var(--bellota-50-regular-line-height);
+}
+.libroswap-com {
+    font-family: "Bellota";
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--black);
+    align-self: stretch;
+    letter-spacing: 1.05px;
+}
+
+.flex-wrapper-one {
+    background-color: rgba(255, 61, 0, 0.75);
+    padding: 85px 147px 108px 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flex-wrapper-seven {
+    margin-bottom: 26px;
+    padding: 0 0 0 1px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-wrapper-eight {
+    margin-right: 617px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home {
+    color: var(--white);
+    margin-bottom: 26px;
+    letter-spacing: 1.05px;
+    font-family: var(--bellota-35-bold-family);
+    font-size: var(--bellota-35-bold-size);
+    font-weight: var(--bellota-35-bold-weight);
+    line-height: var(--bellota-35-bold-line-height);
+}
+
+.account {
+    color: var(--white);
+    align-self: stretch;
+    letter-spacing: 1.05px;
+    font-family: var(--bellota-35-bold-family);
+    font-size: var(--bellota-35-bold-size);
+    font-weight: var(--bellota-35-bold-weight);
+    line-height: var(--bellota-35-bold-line-height);
+}
+
+.flex-wrapper-nine {
+    padding: 28px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sontact {
+    margin-bottom: 19px;
+    color: var(--black);
+    font-family: var(--bellota-35-bold-family);
+    font-size: var(--bellota-35-bold-size);
+    font-weight: var(--bellota-35-bold-weight);
+    line-height: var(--bellota-35-bold-line-height);
+}
+
+.sontact-emphasis-1 {
+    font-family: "Bellota";
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--white);
+    letter-spacing: 1.35px;
+}
+
+
+
+.terms-of-service {
+    max-width: 228px;
+    color: var(--white);
+    letter-spacing: 1.05px;
+    font-family: var(--bellota-35-bold-family);
+    font-size: var(--bellota-35-bold-size);
+    font-weight: var(--bellota-35-bold-weight);
+    line-height: var(--bellota-35-bold-line-height);
+}
+
+
