@@ -9,6 +9,7 @@ using DAL;
 using DAL.Models;
 using BusinessLogic.Interfaces;
 
+
 namespace Libro_Swap.Controllers
 {
     public class BooksController : Controller
@@ -80,6 +81,8 @@ namespace Libro_Swap.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Title,CurrentOwnerId,GenreId,SecondaryGenreId,TertiaryGenreId,LanguageId,BookCoverageId,BookhouseId,CityId,AuthorId,TranslatorId,Translation,Pages,Year,Id")] Book book)
         {
+
+            SetUserOwner(book);
             if (ModelState.IsValid)
             {
                 _context.Add(book);
@@ -102,6 +105,8 @@ namespace Libro_Swap.Controllers
         // GET: Books/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
+          
+
             if (id == null)
             {
                 return NotFound();
@@ -132,6 +137,7 @@ namespace Libro_Swap.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Title,CurrentOwnerId,GenreId,SecondaryGenreId,TertiaryGenreId,LanguageId,BookCoverageId,BookhouseId,CityId,AuthorId,TranslatorId,Translation,Pages,Year,Id")] Book book)
         {
+            SetUserOwner(book);
             if (id != book.Id)
             {
                 return NotFound();
@@ -157,6 +163,8 @@ namespace Libro_Swap.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+           
+            
             ViewData["AuthorId"] = new SelectList(_context.Authors, "Id", "AuthorName", book.AuthorId);
             ViewData["BookCoverageId"] = new SelectList(_context.Coverages, "Id", "CoverageName", book.BookCoverageId);
             ViewData["BookhouseId"] = new SelectList(_context.Bookhouses, "Id", "BookhouseName", book.BookhouseId);
@@ -212,6 +220,12 @@ namespace Libro_Swap.Controllers
         private bool BookExists(int id)
         {
             return _context.Books.Any(e => e.Id == id);
+        }
+
+        private void SetUserOwner(Book book)
+        {
+            var user = _context.Users.FirstOrDefault(x => x.Email == User.Identity.Name);
+            book.CurrentOwnerId = user.Id;
         }
     }
 }
